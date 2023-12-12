@@ -20,6 +20,16 @@ The `printPath` function prints the path taken from the start to the current pos
 
 Finally, the `main` function initializes the grid, start, and end points, and calls the `bfs` function to find the shortest path.
 
+## How to Run
+
+1. Clone this repository or download the `bfs_path_planning.cpp` file.
+2. Open a terminal and navigate to the directory containing the file.
+3. Compile the code using the following command:
+
+   ```bash
+   g++ bfs_path_planning.cpp -o bfs_path_planning
+   ./bfs_path_planning
+
 ## Example
 
 For example, the provided code solves a 5x5 grid maze with the following configuration:
